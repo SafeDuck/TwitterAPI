@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>Lab 1 Twitter Mockup</title>
+    <!--Designed by Austin Haugland-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+      .skip-link {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#content-center">Tweets</a>
+    <nav id="header" role = "navigation">
+      <li><b>Home</b></li>
+      <li><b>Moments</b></li>
+      <li><b>Notifications</b></li>
+      <li><b>Messages</b></li>
+      <li class="pauseButton" onclick = "Pauseed()"><b>Click for Live Tweets</b></li>
+
+      <img id="twitterlogo" src="images/twitter-logo.png" alt="image of twitter"> 
+
+      <li id="TweetButton"><span><b>Tweet</b></span></li>
+    </nav>
+    
+    <div id="wrapper">
+      <div id="content-left">
+        <div id="cover-profile">
+          <img id="ratatLogo" src="images/ratatouille-banner.png" alt = "logo">
+        </div>
+        <div id="profile-pic">
+          <img id="ratatImage" src="images/ratatouille.jpg" alt="profile">
+          <div class = "name">
+            <span class = "who"><b>Remy</b></span>
+            <span class = "user">@remy</span>
+          </div>
+        </div>
+        <div id="profile-stat">
+          <div class = "Tweets">
+            <span class = "twt">Tweets</span>
+            <span class = "num">5049</span>
+          </div>
+          <div class = "Following">
+            <span class = "foll"><b>Following</b></span>
+            <span class = "num">324</span>
+          </div>
+          <div class = "Followers">
+            <span class = "foll1"><b>Followers</b></span>
+            <span class = "num">809</span>
+          </div>
+        </div>
+
+      </div>
+      <div id="content-center">
+        <div id="searchBar">
+          <input class="input" placeholder="Search...">
+        </div>
+        <div id="tweets-container" role="main">
+          <div class="tweet1">
+            <img class="ratatprof" src="images/ratatouille.jpg" alt="profile1">
+            <span class = "me1"><b>Remy </b><span>@remy Nov 19</span></span>
+            <span class = "tweet">I'm taking this class called CS 110 and the TAs are all so <b>cool</b>!</span>
+          </div>
+          <div class="tweet2">
+            <img class="ratatprof" src="images/ratatouille.jpg" alt="profile1">
+            <span class = "me1"><b>Remy </b><span>@remy Nov 19</span></span>
+            <span class = "tweet">It's 2007. You just got home from elementary school. Your mom has pizza bagels in the oven. Ratatouille is in theaters. Life is good</span>
+          </div>
+          <div class="tweet3">
+            <img class="ratatprof" src="images/ratatouille.jpg" alt="profile1">
+            <span class = "me1"><b>Remy </b><span>@remy Nov 19</span></span>
+            <span class = "tweet">Let's make some pasta!</span>
+          </div>
+          <div class="tweet4">
+            <img class="ratatprof" src="images/ratatouille.jpg" alt="profile1">
+            <span class = "me1"><b>Remy </b><span>@remy Nov 19</span></span>
+            <span class = "tweet">Let's make some pasta!</span>
+          </div>
+          <div class="tweet5">
+            <img class="ratatprof" src="images/ratatouille.jpg" alt="profile1">
+            <span class = "me1"><b>Remy </b><span>@remy Nov 19</span></span>
+            <span class = "tweet">Let's make some pasta!</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="content-right">
+        <div id="Bann">
+          <span class = "Bant"><b>Who to follow</b></span>
+        </div>
+        <div id="FirstProf">
+          <span class = "friend1"><b>Linguini </b><span>@Linguini</span></span>
+          <img id="linguiniImage" src="images/linguini.png" alt="profile1">
+          <span class = "followbut"><span>Follow</span></span>
+        </div>
+        <div id="SecondProf">
+          <span class = "friend2"><b>CS110 TA </b><span>@CS</span></span>
+          <img id="ratatImage1" src="images/ratatouille.jpg" alt="profile">
+          <span class = "followbut"><span>Follow</span></span>
+        </div>
+         </div>
+
+      </div>
+      <script src="main.js"></script>
+  </body>
+</html>
